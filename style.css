@@ -6,13 +6,18 @@
   background-color: aqua;
   height:800px;
   max-width:100%;
-
+  display:flex;
+  
 }
 .description{
 
 }
 .recipe{
-  display: flex;
+ 
+  border: 2px solid black;
+  width: 180px;
+  height: 200px;
+
 
 }
 .title{
