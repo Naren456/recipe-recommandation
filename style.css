@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* section third */
 .third{
   background-color: aqua;
   height:800px;
@@ -25,10 +28,34 @@
       font-size:50px;
     text-align: center;
 }
-.first{
-    background-color: bisque;
-}
 img .image{
   height: 200px;
   width: 200px;
 }
+
+
+
+/*first section*/
+
+.first{
+    background-color: bisque;
+}
+img {  
+    height: 100px;
+    max-width: 100%;
+}
+.header{
+    background-color: rgb(255, 197, 196);
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.img{
+    height: 50px;
+    width: auto;
+    margin-left: 1rem;
+    
+}
+
