@@ -47,12 +47,14 @@ img {
     max-width: 100%;
 }
 .header{
-    background-color: rgb(255, 197, 196);
+    background-color: rgba(255, 197, 196,0.5);
+    backdrop-filter: blur(40px);
     height: 4rem;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between ;
+    position: fixed;
 }
 .img{
     height: 50px;
@@ -60,7 +62,17 @@ img {
     margin-left: 1rem;
     
 }
-
+.navlist{
+    display: flex;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: medium;
+     gap:2rem;
+     list-style-type:none;
+}
+.navlistbox{
+    margin: 1rem;
+}
 
 
 /* .second  */
