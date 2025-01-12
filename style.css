@@ -6,31 +6,44 @@
 
 /* section third */
 .third{
-  background-color: aqua;
   height:800px;
   max-width:100%;
 }
 .recipe-gallery{
-  display: flex;
+
   justify-content: space-around;
 }
-.description{
 
-}
-.recipe{
+.recipe-box{
   margin-top: 20px;
   padding: 5px;
   border: 2px solid black;
-  width: 200px;
-  height: 200px;
+  border-radius: 20px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title{
       font-size:50px;
     text-align: center;
 }
-img .image{
-  height: 200px;
-  width: 200px;
+.image{
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+}
+.main-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-food{
+  display: flex;
+  justify-content: center;
+}
+.third{
+  margin-top: 60px;
 }
 img {  
     height: 100px;
@@ -52,6 +65,7 @@ img {
     display: flex;
     align-items: center;
     justify-content:center;
+
 }
 
 .header{
@@ -62,7 +76,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between ;
-    position: fixed;
 }
 .img{
     height: 50px;
@@ -84,8 +97,9 @@ img {
 .mainphoto{
     height: 440px;
     width: auto;
-    margin-top: 50px;
+    margin-top: px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 /*line*/
 .line{
@@ -97,12 +111,19 @@ img {
 .second{
   text-align: center;
   /* background-color: grey; */
+  margin-top: 60px;
 }
 
 .submit{
   margin-left: 5px;
   margin-bottom: 2px;
   border-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
 }
 .second h3 {
   font-size: 24px;
