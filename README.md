@@ -10,12 +10,6 @@ The **Recipe Recommendation System** is a web application that suggests recipes 
 - **Recipe Details**: View comprehensive instructions, ingredient lists, and images.
 - **Responsive Design**: Accessible on various devices, including desktops and mobiles.
 
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [Specify backend technology if applicable]
-- **APIs**: [Mention any external APIs used, e.g., Spoonacular API]
-
 ## Getting Started
 
 ### Prerequisites
