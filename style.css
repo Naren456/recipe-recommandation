@@ -28,6 +28,8 @@
 }
 .first{
     background-color: bisque;
+}
+img {  
     height: 100px;
     max-width: 100%;
 }
