@@ -2,23 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.recipe-gallery{
+.third{
   background-color: aqua;
   height:800px;
   max-width:100%;
-  display:flex;
-  
+}
+.recipe-gallery{
+  display: flex;
+  justify-content: space-around;
 }
 .description{
 
 }
 .recipe{
- 
+  margin-top: 20px;
+  padding: 5px;
   border: 2px solid black;
-  width: 180px;
+  width: 200px;
   height: 200px;
-
-
 }
 .title{
       font-size:50px;
