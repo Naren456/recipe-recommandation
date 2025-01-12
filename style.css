@@ -20,4 +20,11 @@
 }
 .first{
     background-color: bisque;
+    height: 100px;
+    max-width: 100%;
+}
+.header{
+    background-color: rgb(255, 197, 196);
+    height: 3rem;
+    width: 100%;
 }
