@@ -60,7 +60,7 @@ img {
 
 .first{
     background-color:white;
-    height: 500px;
+    height: 600px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -76,6 +76,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between ;
+    position:fixed;
 }
 .img{
     height: 50px;
@@ -97,7 +98,7 @@ img {
 .mainphoto{
     height: 440px;
     width: auto;
-    margin-top: px;
+    margin-top: 80px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
