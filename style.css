@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* section third */
 .third{
   background-color: aqua;
   height:800px;
@@ -26,6 +28,15 @@
       font-size:50px;
     text-align: center;
 }
+img .image{
+  height: 200px;
+  width: 200px;
+}
+
+
+
+/*first section*/
+
 .first{
     background-color: bisque;
     height: 150px;
@@ -49,3 +60,4 @@ img {
     margin-left: 1rem;
     
 }
+
