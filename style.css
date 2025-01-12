@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.recipe-gallery{
+  background-color: aqua;
+  height:800px;
+  max-width:100%;
+}
+.description{
+
+}
+.recipe{
+
+
+}
+.title{
+    font: 10px;
+    align-items: center;
+}
