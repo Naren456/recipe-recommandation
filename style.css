@@ -38,9 +38,12 @@ img .image{
 /*first section*/
 
 .first{
-    background-color: bisque;
-    height: 150px;
-    width: auto;
+    background-color:white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 img {  
     height: 100px;
@@ -73,7 +76,12 @@ img {
 .navlistbox{
     margin: 1rem;
 }
-
+.mainphoto{
+    height: 450px;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
 
 /* .second  */
 
