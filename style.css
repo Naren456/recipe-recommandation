@@ -27,12 +27,8 @@
 }
 .first{
     background-color: bisque;
-<<<<<<< HEAD
 }
-img{
-  height: 200px;
-  width: 200px;
-=======
+img {  
     height: 100px;
     max-width: 100%;
 }
@@ -40,5 +36,5 @@ img{
     background-color: rgb(255, 197, 196);
     height: 3rem;
     width: 100%;
->>>>>>> 95668e86a3f032d4c24e204f74b93edaf1bd62cc
+
 }
