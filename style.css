@@ -26,9 +26,10 @@
   align-items: center;
 }
 .title{
-      font-size:50px;
+      font-size:60px;
     text-align: center;
-    color:green;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
 }
 .foodheading{
   font-size: 25px;
@@ -138,10 +139,10 @@ img {
   color: white;
 }
 .second h3 {
-  font-size: 50px;
+  font-size: 60px;
   margin-top:20px;
   margin-bottom: 20px;
-  color: green;
+  color: rgb(0, 0, 0);
 }
 
 .second #txt{

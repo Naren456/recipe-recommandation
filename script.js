@@ -5,11 +5,12 @@ const apikey = "f9607ab23144405380d3d70a5f228605"
 const baseurl = "https://api.spoonacular.com/recipes/findByIngredients"
 async function getrecipes(ingredients){
   try{
-    const response = await fetch(`${baseurl}?ingredients=${ingredients}&number=5&apiKey=${apikey}`)
+    const response = await fetch(`${baseurl}?ingredients=${ingredients}&number=3&apiKey=${apikey}`)
     if(!response){
        throw new Error("Failed to fetch data")
     }
     const recipes = await response.json();
+    loadthirdsection();
     displayRecipies(recipes)
 
   }
@@ -19,6 +20,24 @@ async function getrecipes(ingredients){
 
   }
 };
+function loadthirdsection(){
+  let third = document.querySelector(".third")
+  if(!third){
+     third=document.createElement("section")
+     third.classList.add("third")
+     third.innerHTML = `
+         <div class="recipe-gallery">
+          <h1 class="title">Recipes</h1>
+          <div class="main-container">
+          </div>
+        </div>   
+     `
+     document.body.appendChild(third)
+     mainContainer = third.querySelector(".main-container")
+     
+  }
+  mainContainer.innerHTML = " "
+}
 function displayRecipies(recipes){
   recipes.forEach(recipes => {
     const div = document.createElement("div")
