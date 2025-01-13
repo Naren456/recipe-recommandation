@@ -30,6 +30,13 @@
     text-align: center;
     color:green;
 }
+.foodheading{
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .image{
   height: 300px;
   width: 500px;
